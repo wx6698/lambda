@@ -1,0 +1,25 @@
+{
+    "wiki": {
+        "apigateway": {
+            "path": "/",
+            "method": {
+                "value": "POST",
+                "items": [
+                    "GET",
+                    "POST",
+                    "PUT",
+                    "DELETE",
+                    "HEAD",
+                    "OPTIONS",
+                    "PATCH"
+                ]
+            },
+            "body": {
+                "entity": "google"
+            }
+        },
+        "lambda": {
+            "entity": "google"
+        }
+    }
+}
